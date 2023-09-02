@@ -1,0 +1,148 @@
+.works {
+    margin-top: 351px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.works h2 {
+    color: #83888F;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.works button {
+    width: 217px;
+    height: 56px;
+    background-color: #0E8784;
+    margin-top: 79px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #FEFCF7;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.works button:hover {
+    border: 1px solid #0E8784;
+    color: #0E8784;
+    background-color: transparent;
+}
+
+.works-line {
+    height: 31px;
+    width: 791px;
+    margin-bottom: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.works-line::before {
+    position: absolute;
+    align-self: flex-start;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0E8784;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.works-line::after {
+    position: absolute;
+    align-self: center;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0E8784;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.works-line span::before {
+    position: absolute;
+    position: absolute;
+    align-self: flex-end;
+    margin-left: 744px;
+    margin-top: -15px;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0E8784;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.works-line span {
+    position: relative;
+    margin-left: 15.5px;
+    width: 760px;
+    background-color: #FDD6BA;
+    height: 2px;
+}
+
+.works-type {
+    display: flex;
+    gap: 95px;
+}
+
+.works-type-1,
+.works-type-2,
+.works-type-3 {
+    width: 285px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+}
+
+.works-type-1 h2,
+.works-type-2 h2,
+.works-type-3 h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FDD6BA;
+}
+
+.works-type-1 h3,
+.works-type-2 h3,
+.works-type-3 h3 {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #333D4B;
+    width: 255px;
+    margin-bottom: 43px;
+    margin-top: -20px;
+}
+
+.works-type-1 h5,
+.works-type-2 h5,
+.works-type-3 h5 {
+    color: #333D4B;
+    width: 285px;
+    font-size: 15.5px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}

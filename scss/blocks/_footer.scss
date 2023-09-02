@@ -1,0 +1,37 @@
+footer {
+    margin-top: 200px;
+    padding-bottom: 88px;
+}
+
+.footer {
+    width: 1280px;
+    height: 120px;
+    background-color: #2C343E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__menu {
+    display: flex;
+    gap: 33px;
+    list-style: none;
+    margin-left: 102.9px;
+    margin-right: 368.1px;
+}
+
+.footer__link {
+    color: #83888F;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    text-align: left;
+}
+
+.footer__logos {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
