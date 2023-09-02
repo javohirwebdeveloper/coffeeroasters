@@ -28,8 +28,11 @@ footer {
     line-height: 15px;
     letter-spacing: 0.9230769276618958px;
     text-align: left;
+    transition: 0.5s;
 }
-
+.footer__link:hover {
+    color: white;
+}
 .footer__logos {
     display: flex;
     align-items: center;
